@@ -1,0 +1,14 @@
+import java.util.*;
+
+public class Main
+{
+	public static void main(String[] args) {
+	    int idade;
+	    
+		System.out.println("Digite sua idade");
+		Scanner scan = new Scanner(System.in);
+		idade = scan.nextInt();
+		
+		System.out.println("Sua idade é " + idade);
+	}
+}
